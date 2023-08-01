@@ -18,7 +18,7 @@ deepspeed fastchat/train/train_lora.py \
     --save_total_limit 2 \
     --learning_rate 1e-5 \
     --weight_decay 0. \
-    --warmup_ratio 0. \
+    --warmup_ratio 0.03 \
     --lr_scheduler_type "cosine" \
     --logging_strategy "steps" \
     --logging_steps 1 \
